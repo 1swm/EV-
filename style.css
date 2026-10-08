@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 380px;
+  min-height: 460px;
+  margin: 0;
+  background:
+    radial-gradient(circle at top right, #3b1d72 0%, transparent 35%),
+    radial-gradient(circle at bottom left, #123b72 0%, transparent 35%),
+    #080a12;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 35px 25px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  background: linear-gradient(90deg, #ffffff, #8b7cff, #48b7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  margin-top: 5px;
+  margin-bottom: 35px;
+  color: #8d91a5;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+.upload-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  border: 1px dashed #4d5680;
+  border-radius: 16px;
+  background: rgba(20, 24, 42, 0.75);
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.upload-box:hover {
+  border-color: #8b7cff;
+  background: rgba(35, 31, 70, 0.8);
+  box-shadow: 0 0 25px rgba(99, 88, 255, 0.2);
+}
+
+.upload-icon {
+  font-size: 35px;
+  color: #8b7cff;
+}
+
+.upload-box span:nth-child(2) {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.upload-box small {
+  margin-top: 7px;
+  color: #777d96;
+}
+
+#videoInput {
+  display: none;
+}
+
+.file-name {
+  margin-top: 15px;
+  color: #aeb4ca;
+  font-size: 12px;
+  word-break: break-all;
+}
+
+button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #6655ff, #269dff);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 8px 25px rgba(53, 95, 255, 0.25);
+  transition: 0.25s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(53, 95, 255, 0.4);
+}
+
+.status {
+  margin-top: 18px;
+  color: #737991;
+  font-size: 12px;
+}

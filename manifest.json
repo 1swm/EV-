@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "EVØ",
+  "version": "1.0.0",
+  "description": "EVØ Video Quality Tool",
+  "action": {
+    "default_popup": "popup.html"
+  }
+} 
