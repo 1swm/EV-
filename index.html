@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVØ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="logo">EVØ</div>
+    <div class="subtitle">VIDEO QUALITY TOOL</div>
+
+    <label class="upload-box" for="videoInput">
+      <span class="upload-icon">＋</span>
+      <span>Add Video</span>
+      <small>MP4, MOV, MKV</small>
+    </label>
+
+    <input type="file" id="videoInput" accept="video/*">
+
+    <div id="fileName" class="file-name"></div>
+
+    <button id="processButton">PROCESS VIDEO</button>
+
+    <div class="status" id="status">Ready</div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
