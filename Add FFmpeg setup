@@ -1,0 +1,14 @@
+{
+  "name": "evo-video-tool",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
+    "vite": "^7.1.7"
+  }
+}
